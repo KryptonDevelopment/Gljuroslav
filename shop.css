@@ -1,0 +1,81 @@
+body {
+    background-color: #2E4053;
+}
+
+div {
+    border: 1px solid purple;
+    background-color: #7D3C98;
+    padding: 30px;
+    margin: 5% auto auto;
+    width: 500px;
+    height: 950px;
+    box-shadow: 10px 10px 14px #E312FF;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: algerian, serif;
+    text-shadow: 4px 4px 6px white;
+}
+
+h2 {
+    color: #50FF12;
+    font-size: 25px;
+    text-align: center;
+    font-family: consolas, serif;
+}
+
+h3 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: consolas, serif;
+}
+
+button {
+    background-color: #7D3C98;
+    border: 3px solid purple;
+    font-size: 30px;
+    font-family: bell mt, serif;
+    color: white;
+    width: 70%;
+    height: 10%;
+    display: block;
+    margin: 10% auto auto;
+}
+
+button:hover {
+    box-shadow: 10px 10px 14px purple;
+    background-color: purple;
+    color: white;
+    transition: all 0.5s;
+}
+
+a {
+    color: #7D3C98;
+}
+
+a:hover {
+    color: purple;
+    transition: all 0.5s;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    border: 3px solid black;
+    border-radius: 50px;
+    display: block;
+    box-shadow: 6px 6px 10px black;
+    margin: auto auto 50px;
+}
+
+.img1 {
+    height: 55%;
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}

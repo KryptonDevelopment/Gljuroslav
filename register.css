@@ -1,0 +1,58 @@
+body {
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+div {
+    border-radius: 30px;
+    width: 700px;
+    height: 370px;
+    margin: 10% auto 20px;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+h1 {
+    color: red;
+    font-size: 35px;
+    font-family: algerian, serif;
+    text-shadow: 4px 4px 8px red;
+    padding: 15px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: consolas, serif;
+    font-size: 20px;
+    width: 400px;
+    height: 40px;
+    margin: auto auto 20px;
+    text-align: center;
+}
+
+button {
+    border: 3px solid black;
+    color: white;
+    border-radius: 30px;
+    background-color: green;
+    font-size: 22px;
+    font-family: Arial, serif;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+}
+
+button:hover {
+    border: 3px solid green;
+    border-radius: 30px;
+    background-color: lightgreen;
+    transition: 2s;
+    color: black;
+    box-shadow: 4px 4px 8px green;
+}

@@ -1,0 +1,132 @@
+body {
+    background-image: url("bg3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+div {
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 750px;
+    width: 800px;
+    padding: 30px;
+    background-color: #34495E;
+    margin: 8% auto auto;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+    font-family: costallar, serif;
+    text-align: center;
+    text-shadow: 6px 6px 8px black;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px white;
+}
+
+h3 {
+    color: white;
+    font-family: consolas, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    text-shadow: 4px 4px 6px black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: #50FF12;
+    font-size: 25px;
+    text-align: center;
+    font-family: consolas, serif;
+}
+
+button {
+    display: inline-block;
+}
+
+.button1 {
+    border: 3px solid red;
+    border-radius: 30px;
+    background-color: #FF6F6F;
+    font-size: 25px;
+    font-family: arial, serif;
+    font-weight: bold;
+    float: left;
+    top: 53px;
+    color: black;
+    height: 40px;
+    width: 200px;
+}
+
+
+.button1:hover {
+    background-color: red;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 4px 4px 6px black;
+    transition: 1.5s;
+}
+
+.button2 {
+    border: 3px solid red;
+    border-radius: 30px;
+    background-color: #FF6F6F;
+    font-size: 25px;
+    font-family: arial, serif;
+    font-weight: bold;
+    float: right;
+    color: black;
+    height: 40px;
+    width: 200px;
+}
+
+
+.button2:hover {
+    background-color: red;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 4px 4px 6px black;
+    transition: 1.5s;
+}
+
+.button3 {
+    border: 3px solid red;
+    border-radius: 30px;
+    background-color: #FF6F6F;
+    font-size: 25px;
+    font-family: arial, serif;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    color: black;
+    height: 40px;
+    width: 200px;
+}
+
+
+.button3:hover {
+    background-color: red;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 4px 4px 6px black;
+    transition: 1.5s;
+}
+
+span {
+    display: block;
+    padding: 5px;
+}

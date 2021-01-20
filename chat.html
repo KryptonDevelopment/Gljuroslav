@@ -1,0 +1,115 @@
+<html lang="hr">
+<head>
+    <script async src="https://arc.io/widget.min.js#AW1tKY6r"></script>
+    <link href="chat.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link height=700 href="gljuroljub.png" rel="icon" type="image" width=700>
+    <script src="server/js/socket.io.js"></script>
+    <script src="server/js/jquery.js"></script>
+    <title>Gljur | Website</title>
+</head>
+<body>
+<div class="navbar">
+    <a class="active" href="index.html"><i class="fa fa-home"> </i> Home</a>
+    <a href="login.html"><i class="fa fa-lock"> </i> Login</a>
+    <a href="register.html"><i class="fa fa-user"> </i> Register</a>
+    <a href="#"><i class="fa fa-power-off"> </i> Log out</a>
+    <p class="topnav p"><i class="fa fa-user-circle-o"> </i> Krkan</p>
+</div>
+
+<div class="div1">
+    <h1>Server List</h1>
+    <button class="button2">ŽENKE</button>
+    <button class="button2">PRIJAVE</button>
+    <button class="button2">PRIJAVE</button>
+    <button class="button2">PRIJAVE</button>
+    <button class="button2">PRIJAVE</button>
+    <button class="button2">PRIJAVE</button>
+    <button class="button2">PRIJAVE</button>
+    <button class="button2">PRIJAVE</button>
+    <button class="button2">PRIJAVE</button>
+    <button class="button2">PRIJAVE</button>
+</div>
+
+
+<div class="div3">
+    <form onsubmit="return sendMessage();">
+        <label for="message"></label><input id="message" placeholder="Unesi poruku...">
+        <button class="button1" value="Send">Send<i class="fa fa-send"></i></button>
+    </form>
+
+    <!--list where all message will be displayed-->
+    <ul id="messages"></ul>
+</div>
+<script>
+    //const server = "http://localhost:3000";
+    //const io = io(server);
+
+    function sendMessage() {
+        //const message = document.getElementById("message");
+        // Ostaci od Krkilijevog chat servera
+        //io.emit("new_message", message.value);
+
+        return false;
+    }
+
+    /* Ostaci od Krkilijevog chat servera
+    $.ajax({
+        url: server + "/get_messages",
+        method: "GET",
+        succes: function (response) {
+            console.log(response);
+
+            const messages = document.getElementById("messages");
+
+            const data = JSON.parse(response);
+            for (let a = 0; a < data.length; a++) {
+
+                const li = document.createElement("li");
+
+                li.id = "message-" + data[a].id;
+
+                li.innerHTML = data[a].message;
+
+                li.innerHTML += "<button data-id = '" + data[a].id + "' onclick = 'deleteMessage(this);'>Delete</button>";
+
+                messages.appendChild(li);
+            }
+        }
+    });
+    */
+    /*
+    function deleteMessage(self) {
+        const id = self.getAttribute("data-id");
+        console.log(id);
+        // Ostaci od Krkilijevog chat servera
+        //io.emit("delete_message", id);
+    }
+    */
+    /* Ostaci od Krkilijevog chat servera
+    io.on("delete_message", function (id) {
+        const node = document.getElementById("message-" + id);
+        node.innerHTML = "Ova poruka će biti obrisana!";
+    });
+     */
+    /* Ostaci od Krkilijevog chat servera
+    io.on("new_message", function (data) {
+        console.log("Server govori", data);
+
+
+        const li = document.createElement("li");
+
+        li.id = "message-" + data.id;
+
+
+        li.innerHTML = data.message;
+
+        li.innerHTML += "<button data-id = '" + data.id + "' onclick = 'deleteMessage(this);'>Delete</button>";
+
+        const messages = document.getElementById("messages");
+        messages.appendChild(li);
+    });
+     */
+</script>
+</body>
+</html>

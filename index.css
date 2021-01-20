@@ -1,0 +1,76 @@
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.div2 {
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 400px;
+    width: 900px;
+    margin: 100px auto auto;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/*
+.div3 {
+    height: 400px;
+    float: block;
+    box-sizing: border-box;
+    background-color: white;
+}
+ */
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    width: 150px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Bodoni MT Black, serif;
+}
+
+.topnav a:hover {
+    border-radius: 30px;
+    transition: 2.5s;
+    color: black;
+    background-color: white;
+    box-shadow: 4px 4px 10px white;
+}
+
+.topnav p {
+    float: left;
+    color: white;
+    font-family: algerian, serif;
+    font-size: 25px;
+    padding: 0 50px;
+}
+
+h1 {
+    color: red;
+    font-family: castellar, serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color: black;
+    font-family: arial, serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+span {
+    display: block;
+}
